@@ -1,0 +1,97 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Poppins, sanf-serif;
+    
+}
+
+.description-activity h1 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+  }
+
+  .description-activity h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+  }
+
+  .description-activity ol {
+   list-style: decimal;
+   margin-top: 18px;
+   margin-bottom: 24px;
+  }
+
+  .description-activity ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-top: 18px;
+  }
+
+.desc-html-render h1{
+    font-size: 2rem;
+}
+.desc-html-render h2{
+    font-size: 1.5rem;
+}
+.desc-html-render ol{
+    list-style: decimal;
+}
+.desc-html-render ul{
+    list-style: disc;
+}
+.desc-html-render ul, ol{
+    padding-left: 1.5rem;
+}
+
+.active-nav{
+    color: #5352ED;
+}
+
+.nav-link:hover {
+    color: #5352ED;
+    transition: 0.2s;
+}
+
+.right-auth {
+    background-image: url("/image/side.jpg");
+}
+
+@layer components{
+
+    .button {
+        @apply  mt-5 mr-5 rounded border 
+    }
+    .button-lg {
+        @apply w-72 h-16 p-2 text-xl
+    }
+    .button-md {
+        @apply w-56 h-16 p-2 text-lg
+    }
+    .button-secondary {
+        @apply border-blue-main text-blue-main
+    }
+    .button-secondary:hover {
+        @apply transition duration-200 bg-gradient-to-r from-blue-secondary to-blue-main text-white border-0  -translate-y-1 transform
+     }
+     .button-secondary:active{
+        @apply from-blue-main to-blue-main  transition duration-150
+    } 
+    .button-primary {
+       @apply  bg-gradient-to-r from-blue-secondary to-blue-main text-white
+    }
+    .button-primary:hover {
+       @apply  transition duration-200 from-blue-secondary to-blue-main ease-in-out -translate-y-1 transform
+    }
+    .button-primary:active{
+        @apply transition duration-150 from-blue-main to-blue-main 
+    }
+    
+}
+
