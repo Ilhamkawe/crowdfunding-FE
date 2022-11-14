@@ -1,5 +1,17 @@
 # crowdfunding-TA-front-end
 
+## Config 
+
+adjust backend url on nuxt.config.js like:
+
+``` javascript
+ axios: {
+    baseUrl : "http://8.215.65.120:8080"
+ },
+
+```
+
+
 ## Build Setup
 
 ```bash
@@ -24,51 +36,46 @@ For detailed explanation on how things work, check out the [documentation](https
 - Vue / Nuxt 
 - Tailwind
 
-## Special Directories
+## Screenshoot
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+<strong><p>Login</p></strong>
 
-### `assets`
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/login.png)
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+<strong><p>Register</p></strong>
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/register.png)
 
-### `components`
+<strong><p>Create Campaign</p></strong>
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/pengajuan_campaign.png)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+<strong><p>Manage Campaign</p></strong>
 
-### `layouts`
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/kelola_campaign.png)
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+<strong><p>Manage Activity</p></strong>
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/kelola_act.png)
 
+<strong><p>User</p></strong>
 
-### `pages`
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/user.png)
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+<strong><p>list Campaign</p></strong>
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/list_campaign.png)
 
-### `plugins`
+<strong><p>Detail Campaign</p></strong>
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/detil_campaign.png)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+<strong><p>Donation</p></strong>
 
-### `static`
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/donasi_1.png)
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/donasi_2.png)
+![](https://github.com/Ilhamkawe/crowdfunding-FE/blob/main/SS/donasi_3.png)
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+## Backend
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+https://github.com/Ilhamkawe/Crowdfunding-go
