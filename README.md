@@ -6,7 +6,7 @@ adjust backend url on nuxt.config.js like:
 
 ``` javascript
  axios: {
-    baseUrl : "http://8.215.65.120:8080"
+    baseUrl : "localhost:8000" //example
  },
 
 ```
